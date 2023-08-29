@@ -1,0 +1,11 @@
+/* DEBUG */
+[class^='container'],[class^='col']{
+  background-color: rgba(100, 148, 237, 0.209);
+  border: 1px solid;
+  min-height: 80px;
+}
+
+header {
+  background-color: rgb(44, 62, 80);
+  height: 90px;
+}
