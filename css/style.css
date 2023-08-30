@@ -22,9 +22,28 @@ header {
   width: 225px;
 }
 
+.my_card img {
+  max-width: 100%;
+}
+
+
 .md_container {
   width: 70%;
   margin: 0 auto;
+}
+
+.md_input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-left: 0;
+  border-radius: 0;
+}
+.md_btn {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border: none;
+  margin:10px 0 30px 0;
 }
 
 .footer-top {
@@ -35,3 +54,4 @@ header {
   background-color: rgb(44, 62, 80);
   height: 110px;
 }
+
