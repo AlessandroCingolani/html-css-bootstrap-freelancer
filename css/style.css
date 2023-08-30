@@ -36,7 +36,9 @@ button.navbar-toggler{
   color: white;
 }
 
-header a:hover {
+a.nav-link:hover,
+a.navbar-brand:hover,
+button.navbar-toggler:hover{
   color:rgb(26, 188, 156);
 }
 
@@ -58,14 +60,15 @@ header a:hover {
 }
 
 
-.line-star {
+.line-star-w,
+.line-star-b {
   font-size: 1.4rem;
   font-weight: 800;
   position: relative;
   padding: 15px;
 }
 
-.line-star::before {
+.line-star-w::before {
   content: "";
   position: absolute;
   transform: translate(-100%, -50%);
@@ -77,7 +80,7 @@ header a:hover {
   border-radius: 10px;
 }
 
-.line-star::after {
+.line-star-w::after {
   content: "";
   position: absolute;
   transform: translate(100%, -50%);
@@ -89,9 +92,31 @@ header a:hover {
   border-radius: 10px;
 }
 
-.star-black {
-  color: black;
+.line-star-b::before {
+  content: "";
+  position: absolute;
+  transform: translate(-100%, -50%);
+  left: 0;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
 }
+
+.line-star-b::after {
+  content: "";
+  position: absolute;
+  transform: translate(100%, -50%);
+  right: 0;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
 
 .md_jumbo {
   padding-top: 110px;
