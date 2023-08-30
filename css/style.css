@@ -53,6 +53,10 @@ header {
   margin:10px 0 30px 0;
 }
 
+footer {
+  color: white;
+}
+
 .footer-top {
   background-color: rgb(58, 84, 109);
 }
