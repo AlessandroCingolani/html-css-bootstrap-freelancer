@@ -32,13 +32,19 @@ header {
 
 a.nav-link,
 a.navbar-brand,
-button.navbar-toggler{
+.btn{
   color: white;
+}
+
+.burger {
+  border: 1px solid white;
+  padding: 1px 10px;
+  font-size: 1.5rem;
 }
 
 a.nav-link:hover,
 a.navbar-brand:hover,
-button.navbar-toggler:hover{
+.burger:hover{
   color:rgb(26, 188, 156);
 }
 
