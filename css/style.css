@@ -19,6 +19,43 @@ header {
   background-color: rgb(26, 188, 156);
 }
 
+.star-block {
+  position: relative;
+}
+
+.line-star {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.line-star::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 43%;
+  top: 50%;
+  width: 5%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.line-star::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 33%;
+  top: 50%;
+  width: 5%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.star-black {
+  color: black;
+}
+
 .md_jumbo {
   padding-top: 90px;
 }
